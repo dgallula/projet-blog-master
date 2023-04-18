@@ -21,3 +21,12 @@ sur le terminal
 composer update
 php -S localhost:8000 -t  public
 la connection à mysql se trouve dans le dossier src/connection.php
+
+## pour la mise a jour sur github
+
+
+git add .     
+git commit -m "commit"       
+git remote add origin https://github.com/dgallula/projet-blog-master.git
+git branch -M master  
+git push -u origin master
