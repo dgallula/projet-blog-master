@@ -9,7 +9,7 @@
 </head>
 <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a href="#" class="navbar-brand">king-david.fr</a>
+        <a href="#" class="navbar-brand">Tehila-ledavid.com</a>
     </nav>
 
     <div class="container mt-4">
