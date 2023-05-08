@@ -26,7 +26,7 @@ la connection à mysql se trouve dans le dossier src/connection.php
 
 
 git add .     
-git commit -m "commit"       
+git commit -m "update"       
 git remote add origin https://github.com/dgallula/projet-blog-master.git
 git branch -M master  
 git push -u origin master
