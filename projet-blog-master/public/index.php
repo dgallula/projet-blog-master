@@ -1,13 +1,9 @@
 <?php
 require '../vendor/autoload.php';
 
-define('DEBUG_TIME', microtime(true));
 
-$whoops = new \Whoops\Run;
-$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
-$whoops->register();
+error_reporting(0);
 
-define('UPLOAD_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'uploads');
 
 if(isset($_GET['page']) && $_GET['page'] === '1') {
     $uri = explode('?', $_SERVER['REQUEST_URI'])[0];
